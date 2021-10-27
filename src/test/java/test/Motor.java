@@ -13,7 +13,7 @@ public class Motor {
 	void asignarTipo(String tipo) {
 		String tipos[] = {"electrico","gasolina"};
 		if (Arrays.asList(tipos).contains(tipo) == true) {
-			this.tipo = tipo
+			this.tipo = tipo;
 		}
 	}
 
